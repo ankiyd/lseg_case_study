@@ -39,46 +39,6 @@ The HRIS dataset contains ~1,470 employee records.
 
 ---
 
-## Project Structure
-
-LSEG_CASE_STUDY/
-│
-├── data/
-│   ├── raw/
-│   │   ├── exit_survey.csv
-│   │   ├── hris_extract.csv
-├── notebooks/
-│   ├── 01_EDA.ipynb
-│   ├── 02_Modeling.ipynb
-│   ├── 03_Exit_Survey_Analysis.ipynb
-│
-│
-├── output/
-│   ├── eda_figures/
-│   │   ├── attrition_by_business_travel.png 
-│   │   ├── attrition_by_job_level.png
-│   │   ├── attrition_by_overtime.png
-│   │   ├── attrition_by_overtime.png 
-│   │   ├── controllable_exit_survey.png 
-│   │   └── External_vs_Controlled.png
-│   │
-│
-├── presentation/
-│   ├── Workforce_Insights_Presentation.pptx
-│
-├── scripts
-│   ├── convert_excel_to_csv.py
-│
-├── src/
-│   ├── data_cleaning.py
-│   ├── feature_engineering.py
-│   ├── modeling.py
-│
-├── requirements.txt
-└── README.md
-
----
-
 ## Methodology
 
 ### Step 1 – Data Cleaning
